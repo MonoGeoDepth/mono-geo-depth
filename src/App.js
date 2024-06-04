@@ -48,7 +48,7 @@ function App() {
             <Typography
               variant="h1"
               sx={{
-                fontSize: '150px', // Adjust the font size as needed
+                fontSize: '140px', // Adjust the font size as needed
                 color: 'lightcyan', // Change the color to white
               }}
             >
@@ -57,7 +57,7 @@ function App() {
             <Typography
               variant="h1"
               sx={{
-                fontSize: '72px',
+                fontSize: '60px',
                 color: 'lightcyan', // Change the color to white
               }}
             >
@@ -167,7 +167,7 @@ function App() {
             </Typography>
           </Grid>
 
-          <Grid item xs={7}>
+          <Grid item xs={6}>
             <ReactPlayer
               url={video} // Replace with your video URL
               controls
@@ -176,7 +176,7 @@ function App() {
               height="100%"
             />
           </Grid>
-          <Grid item xs={5}>
+          <Grid item xs={6}>
             <Typography
               variant="h5"
               align="justify"
@@ -216,12 +216,11 @@ function App() {
             paddingBottom={5}
             borderRadius={5}
             marginLeft={2.5}
-            marginRight={2.5}
             marginTop={5}
             style={{ display: 'flex', justifyContent: 'center' }}
             elevation={4}
             justifyContent="center"
-            xs={5.75}
+            xs={11.75}
             sx={{ backgroundColor: '#e3e3ff' }}
           >
             <Grid item xs={12} marginBottom={4}>
@@ -287,12 +286,11 @@ function App() {
             paddingBottom={5}
             borderRadius={5}
             marginLeft={2.5}
-            marginRight={2.5}
             marginTop={5}
             style={{ display: 'flex', justifyContent: 'center' }}
             elevation={4}
             justifyContent="center"
-            xs={5.75}
+            xs={11.75}
             sx={{ backgroundColor: '#e3e3ff' }}
           >
             <Grid item xs={12} marginBottom={4}>
