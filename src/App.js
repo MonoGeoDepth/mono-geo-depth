@@ -38,17 +38,22 @@ function App() {
             width: '100%', // Set the width to 100%
             backgroundColor: 'red',
             backgroundImage: `url(${bgimage})`,
-            height: '100%',
+            minHeight: '100%',
             backgroundSize: 'cover',
             backgroundRepeat: 'no-repeat',
             backgroundPosition: 'center', // Set the size of the background image
           }}
         >
-          <Grid item xs={8} paddingLeft={2}>
+          <Grid item xs={12} md={8} paddingLeft={2}>
             <Typography
               variant="h1"
               sx={{
-                fontSize: '140px', // Adjust the font size as needed
+                fontSize: {
+                  xs: '40px',
+                  sm: '80px',
+                  md: '124px',
+                  lg: '140px',
+                }, // Adjust the font size as needed
                 color: 'lightcyan', // Change the color to white
               }}
             >
@@ -57,7 +62,10 @@ function App() {
             <Typography
               variant="h1"
               sx={{
-                fontSize: '60px',
+                fontSize: {
+                  xs: '30px',
+                  sm: '60px',
+                },
                 color: 'lightcyan', // Change the color to white
               }}
             >
@@ -66,7 +74,10 @@ function App() {
             <Typography
               variant="h5"
               sx={{
-                fontSize: '48px',
+                fontSize: {
+                  xs: '24px',
+                  sm: '48px',
+                },
                 color: 'lightcyan', // Change the color to white
               }}
             >
@@ -119,7 +130,10 @@ function App() {
               variant="contained"
               sx={{
                 backgroundColor: 'blueviolet',
-                marginTop: '-100px',
+                marginTop: {
+                  xs: '0px',
+                  sm: '-100px',
+                },
                 marginleft: '16px',
                 '&:hover': {
                   backgroundColor: 'darkviolet', // Changes the button color on hover
@@ -167,7 +181,7 @@ function App() {
             </Typography>
           </Grid>
 
-          <Grid item xs={6}>
+          <Grid item xs={12} xl={6}>
             <ReactPlayer
               url={video} // Replace with your video URL
               controls
@@ -176,12 +190,13 @@ function App() {
               height="100%"
             />
           </Grid>
-          <Grid item xs={6}>
+          <Grid item xs={12} xl={6}>
             <Typography
               variant="h5"
               align="justify"
-              paddingLeft={8}
-              paddingRight={2}
+              paddingLeft={{ xs: 0, xl: 8 }}
+              paddingRight={{ xs: 0, xl: 2 }}
+              paddingTop={{ xs: 5, xl: 0 }}
               sx={{ color: 'black' }}
             >
               Monocular depth estimation presents a significant challenge due to
