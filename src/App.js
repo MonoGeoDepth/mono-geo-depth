@@ -175,7 +175,14 @@ function App() {
               align="center"
               paddingLeft={8}
               paddingRight={8}
-              sx={{ color: 'darkviolet' }}
+              sx={{
+                color: 'darkviolet',
+                fontSize: {
+                  xs: '24px',
+                  sm: '50px',
+                  md: '64px',
+                },
+              }}
             >
               About Our Model
             </Typography>
@@ -244,7 +251,14 @@ function App() {
                 align="center"
                 paddingLeft={8}
                 paddingRight={8}
-                sx={{ color: 'darkviolet' }}
+                sx={{
+                  color: 'darkviolet',
+                  fontSize: {
+                    xs: '24px',
+                    sm: '50px',
+                    md: '64px',
+                  },
+                }}
               >
                 Dataset
               </Typography>
@@ -314,7 +328,14 @@ function App() {
                 align="center"
                 paddingLeft={8}
                 paddingRight={8}
-                sx={{ color: 'darkviolet' }}
+                sx={{
+                  color: 'darkviolet',
+                  fontSize: {
+                    xs: '24px',
+                    sm: '50px',
+                    md: '64px',
+                  },
+                }}
               >
                 Visualization Tool
               </Typography>
