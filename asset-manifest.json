@@ -1,7 +1,7 @@
 {
   "files": {
     "main.css": "/mono-geo-depth/static/css/main.e6c13ad2.css",
-    "main.js": "/mono-geo-depth/static/js/main.7d51d8f5.js",
+    "main.js": "/mono-geo-depth/static/js/main.adbc4063.js",
     "reactPlayerYouTube.js": "/mono-geo-depth/static/js/reactPlayerYouTube.8e524c1f.chunk.js",
     "reactPlayerSoundCloud.js": "/mono-geo-depth/static/js/reactPlayerSoundCloud.4f325d5d.chunk.js",
     "reactPlayerVimeo.js": "/mono-geo-depth/static/js/reactPlayerVimeo.18c19604.chunk.js",
@@ -21,7 +21,7 @@
     "static/media/splash.jpg": "/mono-geo-depth/static/media/splash.1d74762c058badb1f7ef.jpg",
     "index.html": "/mono-geo-depth/index.html",
     "main.e6c13ad2.css.map": "/mono-geo-depth/static/css/main.e6c13ad2.css.map",
-    "main.7d51d8f5.js.map": "/mono-geo-depth/static/js/main.7d51d8f5.js.map",
+    "main.adbc4063.js.map": "/mono-geo-depth/static/js/main.adbc4063.js.map",
     "reactPlayerYouTube.8e524c1f.chunk.js.map": "/mono-geo-depth/static/js/reactPlayerYouTube.8e524c1f.chunk.js.map",
     "reactPlayerSoundCloud.4f325d5d.chunk.js.map": "/mono-geo-depth/static/js/reactPlayerSoundCloud.4f325d5d.chunk.js.map",
     "reactPlayerVimeo.18c19604.chunk.js.map": "/mono-geo-depth/static/js/reactPlayerVimeo.18c19604.chunk.js.map",
@@ -40,6 +40,6 @@
   },
   "entrypoints": [
     "static/css/main.e6c13ad2.css",
-    "static/js/main.7d51d8f5.js"
+    "static/js/main.adbc4063.js"
   ]
 }
