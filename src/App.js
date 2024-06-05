@@ -105,7 +105,7 @@ function App() {
               Github
             </Button>
 
-            <Button
+            {/* <Button
               variant="contained"
               disabled={true}
               sx={{
@@ -124,7 +124,7 @@ function App() {
               }
             >
               paper
-            </Button>
+            </Button> */}
 
             <Button
               variant="contained"
