@@ -194,8 +194,8 @@ function App() {
             <Typography
               variant="h5"
               align="justify"
-              paddingLeft={{ xs: 0, xl: 8 }}
-              paddingRight={{ xs: 0, xl: 2 }}
+              paddingLeft={{ xs: 2, xl: 8 }}
+              paddingRight={{ xs: 2, xl: 2 }}
               paddingTop={{ xs: 5, xl: 0 }}
               sx={{ color: 'black' }}
             >
@@ -384,10 +384,21 @@ function App() {
                 display: 'flex',
                 alignItems: 'center',
                 justifyContent: 'center',
-                fontSize: '60px',
+                fontSize: {
+                  xs: '30px',
+                  sm: '60px',
+                },
               }}
             >
-              <TravelExploreIcon sx={{ fontSize: '60px', marginRight: '10px' }}>
+              <TravelExploreIcon
+                sx={{
+                  fontSize: {
+                    xs: '30px',
+                    sm: '60px',
+                  },
+                  marginRight: '10px',
+                }}
+              >
                 add_circle_outline
               </TravelExploreIcon>
               MonoGeoDepth
@@ -404,7 +415,10 @@ function App() {
                 display: 'flex',
                 alignItems: 'center',
                 justifyContent: 'center',
-                fontSize: '18px',
+                fontSize: {
+                  xs: '10px',
+                  sm: '18px',
+                },
               }}
             >
               &copy; 2024 MonoGeoDepth. All rights reserved.
